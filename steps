@@ -1,0 +1,11 @@
+curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+sudo apt-get install gitlab-ce
+sudo gitlab-ctl reconfigure
+
+On your first visit, you'll be redirected to a password reset screen to provide the password for the initial administrator account. Enter your desired password and you'll be redirected back to the login screen.
+
+The default account's username is root. Provide the password you created earlier and login. After login you can change the username if you wish.
+
+
+
+refer: https://about.gitlab.com/installation/#ubuntu
