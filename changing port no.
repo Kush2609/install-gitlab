@@ -1,0 +1,5 @@
+cd /etc/gitlab
+ls
+sudo vi gitlab.rb
+Do this :
+external_url 'http://ec2-54-173-82-237.compute-1.amazonaws.com:<desired port no.>'
